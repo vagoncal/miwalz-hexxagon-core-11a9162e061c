@@ -1,0 +1,52 @@
+SOFTWARE ARCHITEKTUR AUFGABEN
+=============================
+
+- Deployment / Dependencies
+	- Maven
+		- in hexxagon-core schon vorhanden
+		- in play benutzen? (benutzt eigenen dependency manager)
+	- Jenkins
+	- Sonar Metrics
+		- 100% test coverage
+		
+- Guice Dependency Incection / Multi Binding
+
+- Plugins
+
+- Multiple persistence
+	- CRUD component erstellen
+	- db4o nutzen
+	- DAO / Interface to exchange DB
+		- Implement Hibernate / ORM
+	- data layer using CouchDB, Ektorp (on lenny2.in.htwg-konstanz.de:5984)
+	
+- Multi User
+	- Betrifft nur concurrency oder auch "multiplayer" Modus?
+	- One thread per incoming call
+	- Thread Pool
+	
+- Multi Lang
+
+- Test
+	- Component Mock Up tests
+	- Performance
+	- Visual VM, jMeter
+	- test databases performance
+
+
+
+
+
+
+
+
+TODO
+====
+
+- hex-web von teggo testen (was ist anders?, Spielbar?)
+- inital commit
+- hex-core refactoring / umbau
+- hex-web refactoring / umbau
+	
+FRAGEN
+======
